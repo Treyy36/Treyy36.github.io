@@ -1,28 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Animating visibility with jQuery</title>
-        <style>
-            #croc-pic {
-                border: 1px solid green;
-                width: 200px;
-            }
-        </style>
-    </head>
-    <body>
-    
-        <img id="croc-pic" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Crocodylus_acutus_mexico_02-edit1.jpg">
-        <h1 id="croc-text">American Crocodile</h1>
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script>
-        $("#croc-pic").hide();
-        $("#croc-text").hide();
-        $("#croc-pic").show();
-        $("#croc-text").show();
+<head>
+    <title>Website Testing</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: rgb(228, 154, 69);
+            text-align: center;
             
-        </script>
-        
-    </body>
+        }
+        img{
+            image-rendering:optimizeQuality;
+        }
+        h1 {
+            position: relative; top:50px;
+        }
+        #duck-pond {
+            position: relative; top:200px;
+            background-color:transparent;
+            width:35%;
+        }
+
+    </style>
+</head>
+<body>
+ <h1> So you want to know more about duck ponds?</h1>
+<img id="duck-pond" src="images/duck.svg" alt="There should be a duck pond here">
+</body>
 </html>
