@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Website Testing</title>
+    <title>My website</title>
     <meta charset="utf-8">
     <style>
         body {
@@ -9,22 +9,38 @@
             text-align: center;
             
         }
-        img{
+        img {
             image-rendering:optimizeQuality;
         }
         h1 {
             position: relative; top:50px;
         }
-        #duck-pond {
+        h2 {
+            position: absolute; top: 565px; left:1470px;
+            z-index: 2;
+            color:white;
+            
+        }
+        #duck {
             position: relative; top:200px;
             background-color:transparent;
             width:35%;
         }
+        #rightArrow {
+            height: 200px;
+            position: absolute; top: 500px; left:1400px;
+            z-index: 1;
+        }
+        
 
     </style>
 </head>
 <body>
- <h1> So you want to know more about duck ponds?</h1>
-<img id="duck-pond" src="images/duck.svg" alt="There should be a duck pond here">
+    <h1> So you want to know more about duck ponds?</h1>
+    <a href="duckFamily.html"> 
+        <h2>Meet the family</h2>
+        <img id="rightArrow" src="images/rightArrow.svg" alt="wooden arrow">
+    </a>
+    <img id="duck" src="images/duck.svg" alt="There should be a duck here">
 </body>
 </html>
