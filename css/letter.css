@@ -1,0 +1,93 @@
+#message1{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    color: wheat;
+    font-family: Courier New, monospace;
+    font-size: 5vw;
+    animation: fadeIn 5s;
+    animation-fill-mode: forwards;
+}
+#message2{
+    position: relative;
+    top: 10%;
+    text-align: center;
+    color: wheat;
+    font-family: Courier New, monospace;
+    font-size: 5vw;
+    opacity: 0;
+    animation: fadeIn 5s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+#message3{
+    position: relative;
+    top: 10%;
+    text-align: center;
+    margin: 0;
+    color: wheat;
+    font-family: Courier New, monospace;
+    font-size: 5vw;
+    opacity: 0;
+    animation: fadeIn 5s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    35% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+@keyframes fadeInOnly {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.navButtons {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: 0;
+    animation: fadeInOnly 5s;
+    animation-delay: 14s;
+    animation-fill-mode: forwards;
+}
+.navButtons a {
+    padding: 10px 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid white;
+    background-color: wheat;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/*General CSS*/
+body {
+    background-color: white;
+    color: wheat; 
+    margin: 0;
+    padding: 0;
+}
+
