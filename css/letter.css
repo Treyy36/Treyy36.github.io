@@ -1,33 +1,27 @@
-#message1{
+p {
     position: relative;
-    top: 20%;
     text-align: center;
     color: wheat;
     font-family: Courier New, monospace;
     font-size: 5vw;
+}
+.left {
+    text-align: left;
+}
+#message1{
+    top: 20%;
     animation: fadeIn 5s;
     animation-fill-mode: forwards;
 }
 #message2{
-    position: relative;
     top: 10%;
-    text-align: center;
-    color: wheat;
-    font-family: Courier New, monospace;
-    font-size: 5vw;
     opacity: 0;
     animation: fadeIn 5s;
     animation-delay: 5s;
     animation-fill-mode: forwards;
 }
 #message3{
-    position: relative;
     top: 10%;
-    text-align: center;
-    margin: 0;
-    color: wheat;
-    font-family: Courier New, monospace;
-    font-size: 5vw;
     opacity: 0;
     animation: fadeIn 5s;
     animation-delay: 10s;
