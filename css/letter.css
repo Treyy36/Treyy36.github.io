@@ -1,12 +1,16 @@
 p {
     position: relative;
     text-align: center;
-    color: wheat;
     font-family: Courier New, monospace;
     font-size: 5vw;
 }
 .left {
     text-align: left;
+}
+
+.fnt-2vw {
+    text-align: left;
+    font-size: 2vw;
 }
 #message1{
     top: 20%;
@@ -80,7 +84,7 @@ p {
 /*General CSS*/
 body {
     background-color: white;
-    color: wheat; 
+    color: rgb(246, 213, 151); 
     margin: 0;
     padding: 0;
 }
